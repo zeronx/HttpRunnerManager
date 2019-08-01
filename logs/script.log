@@ -437,3 +437,12 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '用例_quant_login_out(登入登出)'
 2018-07-02 14:59:50,449 [HttpRunnerManager:78] [views:log_out] [INFO]- yinquanwang退出
 2018-07-02 14:59:52,333 [HttpRunnerManager:45] [views:login] [INFO]- yinquanwang 登录成功
+2019-08-01 00:19:44,758 [HttpRunnerManager:35] [operation:add_register_data] [INFO]- 新增用户：ApiManager.UserInfo.objects
+2019-08-01 00:19:53,108 [HttpRunnerManager:55] [views:login] [INFO]- cooltea 登录成功
+2019-08-01 21:47:50,897 [HttpRunnerManager:60] [views:login] [INFO]- zeronx 登录失败, 请检查用户名或者密码
+2019-08-01 21:47:53,023 [HttpRunnerManager:60] [views:login] [INFO]- zeronx 登录失败, 请检查用户名或者密码
+2019-08-01 21:47:58,925 [HttpRunnerManager:55] [views:login] [INFO]- cooltea 登录成功
+2019-08-01 22:03:40,816 [HttpRunnerManager:62] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': 'test', 'responsible_name': 'cooltea', 'test_user': 'll', 'dev_user': 'll', 'publish_app': 'application', 'simple_desc': 'test', 'other_desc': ''}
+2019-08-01 22:04:58,605 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'test-mode', 'test_user': 'll', 'simple_desc': 'ddd', 'other_desc': 'dd', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2019-08-01 22:06:05,773 [HttpRunnerManager:192] [operation:add_config_data] [INFO]- test-config配置添加成功: {'config': {'request': {}, 'name': 'test-config'}}
+2019-08-01 22:06:37,737 [HttpRunnerManager:154] [operation:add_case_data] [INFO]- test-example用例添加成功: {'test': {'request': {'url': '', 'method': 'POST'}, 'name': 'test-example'}}
